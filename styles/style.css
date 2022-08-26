@@ -1,0 +1,33 @@
+main{
+    height: 100vh;
+    background-color: rgba(14, 1, 24, 0.94);
+}
+
+main div{
+    display: flex;
+    flex-direction: row;
+}
+main header{
+    flex: 1;
+}
+main nav{
+    flex: 2;
+    padding: 1em;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+nav a{
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+}
+nav  li:last-of-type a{
+    text-transform: uppercase;
+    background-color: rgb(244, 67, 67);
+    padding: 0.6em;
+    border-radius: 5px;
+}
