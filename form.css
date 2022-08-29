@@ -1,0 +1,100 @@
+body{
+    background-color: blue;
+    color: rgba(255, 255, 255, 0.909);
+}
+
+main{
+    background-color: blue;
+    width: 90%;
+    height: 400px;
+    margin: 5em auto;
+    box-shadow:0 0 15px rgba(0, 0, 0, 0.687);
+    border-radius: 10px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    margin: 0 auto;
+}
+section h2{
+    font-size: 2em;
+}
+
+.form ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    row-gap: 2em;
+}
+input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.575);
+    display: inline-block;
+    color: lightblue;
+}
+textarea{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.575);
+}
+
+::-webkit-input-placeholder{
+    color: rgba(173, 216, 230, 0.803);
+}
+label{
+    text-transform: uppercase;
+}
+button{
+    margin-left: 3em;
+    padding: 0.5em 2em;
+    color: rgb(4, 106, 140);
+    
+}
+
+ol{
+    list-style-type: none;
+    margin-top: 3em;
+    margin-left: -4em;
+    font-size: .7em;
+}
+
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100px;
+    padding: 2em 0;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+footer{
+    height: 150px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: flex-end;
+    margin-right: 3em;
+}
+footer p{
+    margin-left: 0.5em;
+}
+footer p a{
+    color: aliceblue;
+}
+
+footer p a:hover{
+    color: rgb(2, 59, 108);
+}
